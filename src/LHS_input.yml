@@ -1,0 +1,22 @@
+param_ranges: 
+    '@@window@@': [0.53, 3.21]
+    '@@floor_insulation@@': [0.06, 0.88]
+    '@@roof_insulation@@': [0.06, 0.88]
+    '@@orientation@@': [0, 360]
+    '@@lighting_density@@': [1, 6] 
+    '@@occupancy_density@@': [0.0125, 0.3289] 
+    '@@equipment_density@@': [16, 24]
+    '@@HSPT@@': [18, 22]
+    '@@hvac_efficiency@@': [0, 1] 
+    '@@flowINF@@': [0.006, 0.02] #range not mentioned in the paper
+    '@@wall_insulation@@': [0.12, 0.85] 
+    '@@met_rate@@': [60, 360]
+    '@@clo@@': [0, 1]
+    '@@shgc@@': [0.1, 1] 
+    '@@wwr@@': [40, 90]
+    '@@overhang@@': [0.5, 2]
+    '@@OpenTime@@': [10, 180] 
+    '@@CloseTime@@': [10, 180] 
+    '@@WindowOpen@@': [0.10, 1]
+N: 60000
+out_dir: 'data/LHS_input_samples.csv'

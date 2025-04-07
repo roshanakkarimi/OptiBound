@@ -1,0 +1,10 @@
+training_dict:
+  data_path: 'data/dublin_dwellings.csv'
+  inp_params: ['@@window@@', '@@floor_insulation@@','@@roof_insulation@@', '@@orientation@@',
+               '@@lighting_density@@', '@@occupancy_density@@', '@@equipment_density@@', '@@HSPT@@',
+               '@@hvac_efficiency@@' , '@@flowINF@@', '@@wall_insulation@@', '@@met_rate@@',
+               '@@clo@@' ,'@@shgc@@', '@@wwr@@', '@@overhang@@', '@@OpenTime@@', '@@CloseTime@@', '@@WindowOpen@@']
+  
+  targets: ['c0: Heating [kWh]', 'c2: Kitchen_thermaldiscomfort', 'c16: co2_kitchen']
+  n_folds: 5
+  training_time: 240 #seconds
